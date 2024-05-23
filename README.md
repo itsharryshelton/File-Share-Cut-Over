@@ -20,7 +20,7 @@ Line 47 Swap to NEW share address
 
 If you're running this via an RMM, make sure the script is ran with signed in user credentials, not system level, otherwise this won't work.
 
-**What it can't do: **
+**What it can't do:**
 
 If the user does not have the credentials already there, it MAY NOT add or prompt for the user to type credentials, I've tested it working like 65-75% of time it will ask for credentials, other times it will just stall out.
 
