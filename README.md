@@ -13,10 +13,15 @@ Force Restarts File Explorer to ensure the GUI updates with this change, as Wind
 **What you need to do:**
 
 Edit the following:
+
 $ipAddress - Change this to your server address
+
 Line 28 - Swap to old share address
+
 Line 40 - Swap to old share address
+
 Line 47 Swap to NEW share address
+
 
 If you're running this via an RMM, make sure the script is ran with signed in user credentials, not system level, otherwise this won't work.
 
