@@ -2,14 +2,15 @@
 A script to check, remove legacy share, then add new server share.
 
 ====
-**How it works: **
+
+**How it works:**
 
 Firstly, it will check if the PC targeted will reach the server at all, if it can't it will write to host it can't, and provide you with their current IP config.
 If it can, it will do the following:
 Find existing old drive, use the drive letter to remove it, then use that same drive letter to map the new drive share.
 Force Restarts File Explorer to ensure the GUI updates with this change, as Windows seems to get stuck displaying the old version, then output the IP config.
 
-**What you need to do: **
+**What you need to do:**
 
 Edit the following:
 $ipAddress - Change this to your server address
